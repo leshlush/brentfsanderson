@@ -36,16 +36,5 @@
         </item>
     
     
-    
-        <item>
-        <title>Dog</title>
-        <link>//localhost:1313/posts/dogs/</link>
-        <pubDate>Wed, 02 Jul 2025 18:35:14 +0000</pubDate>
-        
-        <guid>//localhost:1313/posts/dogs/</guid>
-        <description>Being Humane //localhost:1313/posts/dogs/ -- //localhost:1313/posts/dogs/ - </description>
-        </item>
-    
-    
   </channel>
 </rss> 

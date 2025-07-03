@@ -22,12 +22,5 @@
       <guid>//localhost:1313/posts/life/</guid>
       <description>&lt;p&gt;I want to see this post&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Dog</title>
-      <link>//localhost:1313/posts/dogs/</link>
-      <pubDate>Wed, 02 Jul 2025 18:35:14 +0000</pubDate>
-      <guid>//localhost:1313/posts/dogs/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
