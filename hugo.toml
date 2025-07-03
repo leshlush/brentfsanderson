@@ -1,10 +1,12 @@
 baseURL = ''
 languageCode = 'en-us'
 title = 'Being Humane'
-theme = 'ananke' 
+theme = 'Mainroad' 
 [[menu.main]]
     name = 'Categories'
     url = '/categories'
     weight = 2
+[params]
+	text_color = "red"
  
  
