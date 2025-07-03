@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Being Humane</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Being Humane</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Jul 2025 18:38:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jul 2025 20:43:10 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Help on the way</title>
-      <link>//localhost:1313/posts/help-on-the-way/</link>
-      <pubDate>Wed, 02 Jul 2025 18:38:40 +0000</pubDate>
-      <guid>//localhost:1313/posts/help-on-the-way/</guid>
-      <description>&lt;p&gt;Check to see if and how publishing works.&lt;/p&gt;</description>
+      <title>A post</title>
+      <link>//localhost:1313/posts/a-post/</link>
+      <pubDate>Wed, 02 Jul 2025 20:43:10 +0000</pubDate>
+      <guid>//localhost:1313/posts/a-post/</guid>
+      <description>&lt;p&gt;Look at how I can write in here.&lt;/p&gt;&#xA;&lt;p&gt;Just in MS Word.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Untitled</title>
+      <link>//localhost:1313/posts/life/</link>
+      <pubDate>Wed, 02 Jul 2025 20:33:39 +0000</pubDate>
+      <guid>//localhost:1313/posts/life/</guid>
+      <description>&lt;p&gt;I want to see this post&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dog</title>
+      <link>//localhost:1313/posts/dogs/</link>
+      <pubDate>Wed, 02 Jul 2025 18:35:14 +0000</pubDate>
+      <guid>//localhost:1313/posts/dogs/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

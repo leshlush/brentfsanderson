@@ -1,6 +1,10 @@
 baseURL = ''
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Being Humane'
 theme = 'ananke' 
+[[menu.main]]
+    name = 'Categories'
+    url = '/categories'
+    weight = 2
  
  

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on Being Humane</title>
+    <link>//localhost:1313/categories/life/</link>
+    <description>Recent content in Life on Being Humane</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Jul 2025 20:33:39 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Untitled</title>
+      <link>//localhost:1313/posts/life/</link>
+      <pubDate>Wed, 02 Jul 2025 20:33:39 +0000</pubDate>
+      <guid>//localhost:1313/posts/life/</guid>
+      <description>&lt;p&gt;I want to see this post&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
