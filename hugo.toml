@@ -4,13 +4,11 @@ title = 'Brent F. Sanderson'
 theme = 'hugo-theme-diary' 
 [[menu.main]]
     name = 'Categories'
-    url = '/categories'
-    weight = 2
+    url = '/tags'
+    weight = 1
 [[menu.main]]
     name = 'About Me'
     url = '/aboutme'
-    weight = 1
-[params]
-	text_color = "red"
+    weight = 2
  
  

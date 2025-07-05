@@ -13,29 +13,14 @@
     
     
         <item>
-        <title>A post</title>
-        <link>//localhost:1313/posts/a-post/</link>
-        <pubDate>Wed, 02 Jul 2025 20:43:10 +0000</pubDate>
-        
-        <guid>//localhost:1313/posts/a-post/</guid>
-        <description>Brent F. Sanderson //localhost:1313/posts/a-post/ -&lt;p&gt;Look at how I can write in here.&lt;/p&gt;
-&lt;p&gt;Just in MS Word.&lt;/p&gt;
-- //localhost:1313/posts/a-post/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>Untitled</title>
-        <link>//localhost:1313/posts/life/</link>
+        <title>Placeholder</title>
+        <link>//localhost:1313/posts/placeholder/</link>
         <pubDate>Wed, 02 Jul 2025 20:33:39 +0000</pubDate>
         
-        <guid>//localhost:1313/posts/life/</guid>
-        <description>Brent F. Sanderson //localhost:1313/posts/life/ -&lt;p&gt;I want to see this post&lt;/p&gt;
-- //localhost:1313/posts/life/ - </description>
+        <guid>//localhost:1313/posts/placeholder/</guid>
+        <description>Brent F. Sanderson //localhost:1313/posts/placeholder/ -&lt;p&gt;Lorem ipsum, etc.&lt;/p&gt;
+- //localhost:1313/posts/placeholder/ - </description>
         </item>
-    
-    
     
     
     
