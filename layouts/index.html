@@ -2,7 +2,7 @@
 {{ define "main" }}
 
     <div class="post-list-container post-list-container-no-background">
-        {{ $paginator := .Paginate (where .Site.RegularPages "Params.hidden" "!=" true) }}
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
         <div class="post-item-wrapper" style="pointer-events:none;">
                     <div class="post-item post-item-no-divider">
                         <div class="post-item-info-wrapper">

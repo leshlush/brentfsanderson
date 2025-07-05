@@ -6,6 +6,10 @@ theme = 'hugo-theme-diary'
     name = 'Categories'
     url = '/categories'
     weight = 2
+[[menu.main]]
+    name = 'About Me'
+    url = '/aboutme'
+    weight = 1
 [params]
 	text_color = "red"
  
