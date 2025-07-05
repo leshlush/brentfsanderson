@@ -27,6 +27,8 @@
   </url><url>
     <loc>//localhost:1313/posts/untitled/</loc>
   </url><url>
+    <loc>//localhost:1313/aboutme/</loc>
+  </url><url>
     <loc>//localhost:1313/partials/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
