@@ -1,0 +1,9 @@
+<h2>Recent Posts</h2>
+<ul>
+  {{ range first 5 (where .Site.RegularPages "Type" "post") }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+    </li>
+  {{ end }}
+</ul>

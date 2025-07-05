@@ -1,6 +1,6 @@
 baseURL = ''
 languageCode = 'en-us'
-title = 'Being Humane'
+title = 'Brent F. Sanderson'
 theme = 'hugo-theme-diary' 
 [[menu.main]]
     name = 'Categories'
