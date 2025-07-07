@@ -11,8 +11,7 @@
                             </div>                            
                         </div>
                 </div>
-		</div>
-		
+		</div>		
 	{{range $paginator.Pages }}
             <a href="{{.RelPermalink}}" class="a-block">
                 <div class="post-item-wrapper">
@@ -46,9 +45,17 @@
                             </div>
                         {{ end }}
                     </div>
+			    </div>
+<h1>Get all writings sent to your inbox:</h1>
+	<iframe
+scrolling="no"
+style="width:100%!important;height:220px;border:1px #ccc solid !important"
+src="https://buttondown.com/sanderson?as_embed=true"
+></iframe><br /><br />
                 </div>
+		
         {{ end }}
         </a>
-    </div>
+
 
 {{ end }}

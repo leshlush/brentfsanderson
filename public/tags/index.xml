@@ -15,12 +15,5 @@
       <guid>//localhost:1313/tags/art/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Life</title>
-      <link>//localhost:1313/tags/life/</link>
-      <pubDate>Wed, 02 Jul 2025 20:33:39 +0000</pubDate>
-      <guid>//localhost:1313/tags/life/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

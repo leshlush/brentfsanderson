@@ -10,5 +10,9 @@ theme = 'hugo-theme-diary'
     name = 'About Me'
     url = '/aboutme'
     weight = 2
+[[menu.main]]
+    name = 'Subscribe'
+    url = 'https://buttondown.com/sanderson'
+    weight = 3
  
  
