@@ -1,0 +1,2 @@
+{{- $src := .Destination | replaceRE "^/static/images/" "/images/" -}}
+<img src="{{ $src }}" alt="{{ .Text }}" loading="lazy" />
