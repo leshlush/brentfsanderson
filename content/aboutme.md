@@ -1,6 +1,6 @@
 ---
 title: About Me
-description: Who am I?
+description: 
 draft: false
 type: page
 layout: page
