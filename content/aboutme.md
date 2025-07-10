@@ -1,12 +1,12 @@
 ---
 title: About Me
-description: 
+description: Who am I?
 draft: false
 type: page
 layout: page
 ---
 
-![](/images/headShotLinkedIn.jpg)
+![](static/images/headShotLinkedIn.jpg)
 
 # Background
 I have worked as a software engineer, a high school computer science teacher, a curriculum manager, and the founder of an education technology startup ( https://www.encodecreate.com ). I have over a decade of experience at the intersection of computer science and education
