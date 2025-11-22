@@ -1,0 +1,32 @@
+.sidebar-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* adjust as needed */
+}
+
+.sidebar-menu {
+  flex: 1;
+}
+
+.sidebar-picture-wrapper {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+.sidebar-picture {
+  width: 60px; /* adjust as needed */
+  height: auto;
+  border-radius: 8px; /* or 50% for round */
+}
+
+@media (max-width: 700px) {
+  .sidebar-flex {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .sidebar-picture-wrapper {
+    margin-left: 0;
+    margin-top: 16px;
+    justify-content: center;
+  }
+}
