@@ -24,5 +24,7 @@
     <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/partials/</loc>
+  </url><url>
+    <loc>//localhost:1313/test-frame/</loc>
   </url>
 </urlset>
