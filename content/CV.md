@@ -4,8 +4,9 @@ draft: false
 type: page
 layout: page
 ---
+
 # Summary
-I've built a career at the intersection of education and technology. 
+I've built a career at the intersection of education and technology.
 
 I have been a:
 
@@ -52,7 +53,6 @@ I have been a:
       <p>Expertise in edtech content standards and integrations, including LTI.</p>
       <p>Experience in devops and maintaining and deploying web application to cloud servers including AWS and Digital Ocean.</p>
     </div>
-
     <div class="tab-pane fade" id="pane-education" role="tabpanel" aria-labelledby="tab-education">
       <p><strong>Education</strong></p>
       <p>A decade of experience teaching high school computer science.</p>
@@ -60,13 +60,11 @@ I have been a:
       <p>Revolutionized school's approach to IT pathways and computer science education. Within two years, enrollment in computer science courses doubled, and enrollment by female students tripled.</p>
       <p>Organized practicum courses around cross-functional student teams using Scrum.</p>
     </div>
-
     <div class="tab-pane fade" id="pane-edtech" role="tabpanel" aria-labelledby="tab-edtech">
       <p><strong>Education Technology</strong></p>
       <p>Deployed and administered multiple learning management systems, including Moodle and Iomad installations.</p>
       <p>Consulted for edtech startups: managed software development projects as product manager and lead technical advisor.</p>
     </div>
-
     <div class="tab-pane fade" id="pane-curriculum" role="tabpanel" aria-labelledby="tab-curriculum">
       <p><strong>Curriculum Development</strong></p>
       <p>Instructional designer proficient in eLearning standards (SCORM, LTI, xAPI, Common Cartridge) and content authoring tools (Articulate Suite, Lumi, Screenpal).</p>
@@ -74,14 +72,12 @@ I have been a:
       <p>Personally wrote curriculum for: coding and computer science (Java and Python), web design, machine learning, game development, Scrum project management, business and entrepreneurship.</p>
       <p>Managed curriculum development: 3D modelling, video editing, Minecraft modding, Roblox modding, Scratch, data science.</p>
     </div>
-
     <div class="tab-pane fade" id="pane-management" role="tabpanel" aria-labelledby="tab-management">
       <p><strong>Management and Business Development</strong></p>
       <p>Oversaw education technology strategy for my own startup and served as a product manager on a contract basis for other edtech companies.</p>
       <p>Managed teams of curriculum developers for my own company and as an independent contractor, including introducing new project management systems to existing teams.</p>
       <p>Designed curriculum and product strategies around emerging education trends, including tracking state and district textbook adoption cycles, new state curriculum standards, and grant funding opportunities.</p>
     </div>
-
     <div class="tab-pane fade" id="pane-sales" role="tabpanel" aria-labelledby="tab-sales">
       <p><strong>Sales</strong></p>
       <p>Successfully sold curriculum and technology products into districts around the country.</p>
@@ -96,7 +92,7 @@ I have been a:
 {{<rawhtml>}}
 <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 bg-body text-body">
       <!--<img src="link-to-img" class="card-img-top" alt="...">-->
       <div class="card-body">
         <h5 class="card-title">EnCode Editor</h5>
@@ -106,7 +102,7 @@ I have been a:
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 bg-body text-body">
       <!--<img src="link-to-img" class="card-img-top" alt="...">-->
       <div class="card-body">
         <h5 class="card-title">Curriculum Portfolio</h5>
@@ -120,7 +116,7 @@ I have been a:
 
 # Work History
 {{<rawhtml>}}
-<table class="table table-borderless align-middle">
+<table class="table table-borderless align-middle bg-body text-body">
   <tbody>
     <tr>
       <td style="width:28%">

@@ -14,5 +14,7 @@ theme = 'hugo-theme-diary'
     name = 'Subscribe'
     url = 'https://buttondown.com/sanderson'
     weight = 3
+[params]
+    disableDarkMode=true
  
  

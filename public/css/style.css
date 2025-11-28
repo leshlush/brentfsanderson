@@ -30,3 +30,29 @@
     justify-content: center;
   }
 }
+body.dark .card,   /* for cards in dark mode */
+body.dark .table   /* for tables in dark mode */
+{
+  background: #23222b !important;
+  color: #f3f3f3 !important;
+  border-color: #222;
+}
+body.dark .card .btn-primary,
+body.dark .btn-primary
+{
+  background-color: #595ced;
+  border-color: #595ced;
+  color: #fff !important;
+}
+body.dark .card-title,
+body.dark .card-text,
+body.dark .table td,
+body.dark .table th {
+  color: #f3f3f3 !important;
+}
+body.dark .table tbody tr {
+  background: #23222b !important;
+}
+body.dark .text-muted, body.dark .small, body.dark small {
+  color: #b3b4b8 !important;
+}
