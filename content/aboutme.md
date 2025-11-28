@@ -8,8 +8,8 @@ layout: page
 
 ![](static/images/headShotLinkedIn.jpg)
 
-I have worked as a software engineer, a high school computer science teacher, a curriculum manager, and the founder of an education technology startup ( https://www.encodecreate.com ). I have over a decade of experience at the intersection of computer science and education
+I have worked as a software engineer, a high school computer science teacher, a curriculum manager, and the founder of an education technology startup. I have over a decade of experience at the intersection of computer science and education
 
-As someone whose job involves teaching young people about technology, I am increasingly concerned by the way technology seems to do harm to those who use it.
+I'm going to use this website to write about anything I feel like writing about, which may include edtech, teaching computer science, humane ways to use technology, and arts and literature.
 
-I write about humane ways to interact with technology, with a focus on the world of education. I also discuss books, the arts, and the possibility of Christian humanism.
+I live in Nashville, TN. My wife Rachel and I have three daughters and one son.
