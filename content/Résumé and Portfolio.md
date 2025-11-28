@@ -1,10 +1,11 @@
 ---
-title: Test Frame
+title: Resume and Portfolio
 draft: false
 type: page
 layout: page
 ---
 
+# Skills
 {{<rawhtml>}}
 <div id="profile-tabs">
   <ul class="nav nav-tabs" id="profileTabs" role="tablist">
@@ -74,3 +75,9 @@ layout: page
   </div>
 </div>
 {{</rawhtml>}}
+
+# Portfolio
+
+
+
+# Work History
