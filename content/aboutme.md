@@ -8,7 +8,7 @@ layout: page
 
 ![](static/images/headShotLinkedIn.jpg)
 
-I have worked as a software engineer, a high school computer science teacher, a curriculum manager, and the founder of an education technology startup. I have over a decade of experience at the intersection of computer science and education
+I have worked as a software engineer, a high school computer science teacher, a curriculum manager, and the founder of an education technology startup. I have over a decade of experience at the intersection of computer science and education. [You can see my full résumé and portfolio here](/CV).
 
 I'm going to use this website to write about anything I feel like writing about, which may include edtech, teaching computer science, humane ways to use technology, and arts and literature.
 
