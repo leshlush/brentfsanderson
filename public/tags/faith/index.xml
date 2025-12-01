@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Faith on Brent F. Sanderson</title>
+    <link>//localhost:1313/tags/faith/</link>
+    <description>Recent content in Faith on Brent F. Sanderson</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Nov 2025 12:01:09 -0600</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/faith/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trying My Best</title>
+      <link>//localhost:1313/posts/trying-my-best/</link>
+      <pubDate>Sat, 29 Nov 2025 12:01:09 -0600</pubDate>
+      <guid>//localhost:1313/posts/trying-my-best/</guid>
+      <description>&lt;p&gt;I am trying my best to be faithful.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
