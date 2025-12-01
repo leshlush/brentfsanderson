@@ -1,7 +1,8 @@
 baseURL = ''
 languageCode = 'en-us'
 title = 'Brent F. Sanderson'
-theme = 'hugo-theme-diary' 
+theme = 'hugo-theme-diary'
+summaryLength = 5 
 [[menu.main]]
     name = 'Categories'
     url = '/tags'
@@ -16,5 +17,6 @@ theme = 'hugo-theme-diary'
     weight = 3
 [params]
     disableDarkMode=true
+    summary_length=5
  
  
