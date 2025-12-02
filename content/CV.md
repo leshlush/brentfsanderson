@@ -12,16 +12,9 @@ I've built a career at the intersection of education, technology, and product de
 
 **I'm passionate about** coding and computer science, teaching other people how to build things, and solving problems in education.
 
-**I have been a**:
-- STEM curriculum director
-- startup founder  
-- education technology consultant
-- software developer
-- high school computer science teacher
-
 # Skills
 {{<rawhtml>}}
-<div id="profile-tabs" style="border-left: 1px solid #D3D3D3; border-bottom: 1px solid #D3D3D3; padding: 5px; border-radius: 3px;">
+<div id="profile-tabs" >
   <ul class="nav nav-tabs" id="profileTabs" role="tablist">
     <li class="nav-item" role="presentation">
       <button class="nav-link  active" id="tab-curriculum" data-bs-toggle="tab" data-bs-target="#pane-curriculum" type="button" role="tab" aria-controls="pane-curriculum" aria-selected="false">Curriculum Development</button>
@@ -37,7 +30,7 @@ I've built a career at the intersection of education, technology, and product de
     </li>    
      </ul>
 
-  <div class="tab-content mt-3" id="profileTabsContent">
+  <div class="tab-content mt-3" id="profileTabsContent" style="border-left: 1px solid #D3D3D3; border-bottom: 1px solid #D3D3D3; padding: 5px; border-radius: 3px;">
       <div class="tab-pane fade" id="pane-education" role="tabpanel" aria-labelledby="tab-education">
       <p><strong>Teaching and Education</strong></p>
       <ul>
@@ -190,18 +183,6 @@ I've built a career at the intersection of education, technology, and product de
         </ul>
       </td>
     </tr>
-    <tr>
-      <td>
-        <strong>Reformed University Fellowship</strong><br>
-        Intern<br>
-        <span class="text-muted small">San Antonio, TX<br>06/2012 – 06/2014</span>
-      </td>
-      <td>
-        <ul class="mb-0">
-          <li>Raised over $30,000 in non-profit support annually.</li>
-      </ul>
-      </td>
-    </tr>
-  </tbody>
+</tbody>
 </table>
 {{</rawhtml>}}
