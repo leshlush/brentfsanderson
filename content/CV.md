@@ -176,9 +176,9 @@ As a former startup founder, software developer, curriculum manager, and high sc
       <td>
         <ul class="mb-0">
           <li>Developed educational software with LMS integrations for universities.</li>
-          <li>Greenfield: Naxos Musicbox (C#, .NET MVC).</li>
-          <li>Legacy maintenance: Naxos Music Library/Spoken Word Library (ASP, VBScript).</li>
-          <li>Worked with international teams (London, Manila, Hong Kong).</li>
+          <li>Greenfield development: Naxos Musicbox (C#, .NET MVC).</li>
+          <li>Legacy maintenance and feature development: Naxos Music Library/Spoken Word Library (ASP, VBScript).</li>
+          <li>Coordinated work onshared codebases with international teams (London, Manila, Hong Kong).</li>
           <li>Liaison between business units.</li>
         </ul>
       </td>
