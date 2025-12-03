@@ -6,7 +6,7 @@ layout: page
 ---
 
 # Summary
-I've built a career at the intersection of education, technology, and product development. I specialize in translating classroom needs into engaging instructional materials and learning tools.
+As a former startup founder, software developer, curriculum manager, and high school teacher, I've built a career at the intersection of education, technology, and product development. I specialize in translating classroom needs into engaging instructional materials and learning tools.
 
 **I'm highly skilled at** building engaging and innovative STEM curriculum, navigating K-12 technical standards and LMS integrations, and shipping quality products on time.
 
