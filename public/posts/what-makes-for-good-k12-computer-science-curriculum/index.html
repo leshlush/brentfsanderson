@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<title>Scaffolding Computer Science Curriculum</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous" defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/journal.min.f398685778cf47367e3a0ef294bb0dbb5c2c4c2305bb3596e02dd64875247123.css" integrity="sha256-85hoV3jPRzZ&#43;Og7ylLsNu1wsTCMFuzWW4C3WSHUkcSM=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    Categories
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/aboutme">
+                    About Me
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/subscribe">
+                    Subscribe
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#what-is-scaffolding" class="nav-what-is-scaffolding">
+									What is scaffolding?
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#scaffolding-for-cs" class="nav-scaffolding-for-cs">
+									Scaffolding for CS
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#how-to-do-it-right" class="nav-how-to-do-it-right">
+									How to do it right
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="//localhost:1313/">
+            Brent F. Sanderson
+        </a>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="//localhost:1313/">
+        <div class="single-column-header-title">Brent F. Sanderson</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+                
+            
+
+            <div class="post-head-wrapper"
+                
+                    
+                    
+                    style="background-image: url('//localhost:1313/scaffold.png')"
+                    
+                
+            >
+                <div class="post-title">
+                    Scaffolding Computer Science Curriculum
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2025-12-17 11:03
+                        </time>
+                        
+
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>As a seasoned computer science teacher and curriculum manager, I believe that all strong computer science curricula have appropriate scaffolding, is project-based, and is easily and effectively differentiable. I&rsquo;ll be writing a series of posts on each of these attributes, but today, I&rsquo;m going to do a deep dive into scaffolding.</p>
+<p>I&rsquo;ve written a lot of CS curriculum. Hundreds of hours worth (perhaps thousands), for my classroom, for my own company and for other companies that valued my expertise. As a high school teacher, I&rsquo;ve also used countless other curricula, some very effective, and many fair to terrible. Because I&rsquo;ve had first-hand experience with so many curriculum products, I know that a poorly scaffolded curriculum is detrimental to student outcomes.</p>
+<p>Without the right scaffolds in place, students won&rsquo;t develop independent thinking, and may give up entirely before they&rsquo;ve started.</p>
+<h2 id="what-is-scaffolding">What is scaffolding?</h2>
+<p>If you’re not an educator, this word probably makes you think of the temporary support structures used by construction workers to reach tall places. On the other hand, if you’re a teacher, your primary association may be something else.</p>
+<p>In the education world, “scaffolding” has a specific technical meaning. It refers to the way that a teacher or curriculum slowly removes instructional supports as students learn. The goal of scaffolding is to guide students to independent thinking and problem solving. We want students to learn how to approach a wide range of problems, not just the specific task at hand.</p>
+<p>Scaffolding is important for learners in every field, but it’s particularly relevant when teaching computer science.</p>
+<p>Most K-12 learners have little experience writing code, so they’ll need extra support up front. Writing code is a skill. Computer science learners are not just memorizing facts or syntax. They’re learning a new way to think. If we want them to master skills, we must guide them towards independent thinking.</p>
+<h2 id="scaffolding-for-cs">Scaffolding for CS</h2>
+<p><strong>So what does scaffolding look like in a computer science curriculum?</strong></p>
+<p>At the start of a project, you’ll want to be very explicit in telling students what code to write and where. If a student has never written an if statement or a for loop, you can’t expect them to understand how to do it just by hearing the theory behind it and seeing a syntax example.</p>
+<p>As a project goes on, students should receive less support. Each step should require a little bit more independent thought. Students build on what they’ve learned, slowly learning not just a programming language, but how to use code to solve a problem.</p>
+<p>Ideally, we’re teaching them not just the “what” of programming, but also “why” and “how.”</p>
+<p>How do you know if a curriculum isn’t scaffolded enough?</p>
+<p>Unscaffolded computer science curriculum falls into one of two extremes.</p>
+<p><strong>The first extreme gives too little support to students</strong>. It provides abstract information and then asks students to perform a concrete task.</p>
+<p>An example assignment might show students the documentation for the Java class <em>String</em>, and then ask them, “find and use methods in this documentation to write a new method that states whether a given input <em>String</em> is a palindrome.”</p>
+<p>This assignment leapfrogs several levels of thinking, asking students to synthesize lecture material without ever getting them to analyze or apply. It doesn’t even check for comprehension.</p>
+<p><strong>The second extreme gives too much support.</strong> It will give students project to work on, but will spell out what to do for every step along the way, like a recipe. An example assignment that gives too much support might be a video tutorial called “How to Build Space Invaders in Python with PyGame,” that never pulls back and asks a student to figure out the next step themselves.</p>
+<p>Students will end the assignment with a finished product, but they won’t ever be required to solve a problem. They’ll be told exactly what code to write the whole time.</p>
+<p><strong>Both extremes cater to the students who don’t need a teacher.</strong></p>
+<p>An exceptionally self-directed student given too little support will find a way to solve the problem. This will probably involve doing research and practice outside of the curriculum to gain the support lacking in the assignment.</p>
+<p>An exceptionally self-directed student given too much support will think outside the task at hand to learn why the project steps work. This will probably involve experimenting and adding new features not requested by the assignment.</p>
+<p>Meanwhile, the students who need a teacher never really learn anything.</p>
+<p>If you don’t give your students enough support, they’ll have nothing to show for their frustration, and probably won’t want to keep learning to write code.</p>
+<p>If you give your students too much support, they’ll never learn to write code beyond following a set of steps. Students will never get to be creative, and they won’t feel like they know what they’re doing.</p>
+<h2 id="how-to-do-it-right">How to do it right</h2>
+<p><strong>What does a properly scaffolded computer science curriculum look like?</strong></p>
+<p>As I said in the introduction, I&rsquo;ve written countless computer science curricula. Many different courses, for a variety of companies. Sometimes I had the freedom to craft a curriculum&rsquo;s direction myself, other times I had to follow the style and goals of a different curriculum manager.</p>
+<p>Whenever I was designing the whole curriculum myself, I used the following structure for every lesson:</p>
+<ol>
+<li>
+<p>First, students read about a new code concept or structure. They’ll learn a big idea and some syntax. The concept might be something like arrays, class inheritance, or Boolean operators.</p>
+</li>
+<li>
+<p>Next, students watch a short video showing someone write code using the new concept. They get to see the skill applied, along with an explanation for how and why it was written that way.</p>
+</li>
+<li>
+<p>After the short text and video lessons, students start working on a project that uses the concept.</p>
+</li>
+</ol>
+<p>All of the real student learning happened in part three. Delivering new content with text or a video is necessary, just like lectures are necessary, but all good teachers know that watching videos or listening to a lecture is one of the worst ways to learn. Students don&rsquo;t internalize knowledge or develop new skill until and unless they&rsquo;ve done hands-on work. Similarly, all good curriculum writers know that hands-on work is where you have to scaffold.</p>
+<p>If we don&rsquo;t have enough scaffolding, students stare at a blank screen forever (or immediately use their favorite AI tools to get the correct answers without ever truly engaging with the problem). Too much scaffolding, and all you&rsquo;re really testing is your students ability to copy and paste from a set of project instructions (granted, that can be a useful skill in its own right).</p>
+<p>To properly scaffold project instructions, the first few steps should start by telling students exactly what to do. &ldquo;Open this file. Find this code section. Go make this exact code change in line 5.&rdquo; As students work, each step should offer a bit less direction. Next, students will be applying the same idea in different place. As the steps progress, they&rsquo;ll be told less and less what to do, applying the main idea in new ways. Eventually, the instructions will have them adding new features without explicit direction.</p>
+<p>As an example, several years ago I authored a project called &ldquo;Rock Dodger&rdquo; that was embedded in a year-long Java curriculum for high schoolers. The cored idea was teaching students when and how to use getter and setter methods to enable interaction between objects.</p>
+<p><img src="/images/ptWuyxJ-mLff4Hnf.gif" alt="" loading="lazy" /></p>
+<p>One of the first steps showed students exactly what to do, like this:</p>
+<p><img src="/images/step2.png" alt="" loading="lazy" /></p>
+<p>A couple steps later, the training wheels started to come off just a little bit:
+<img src="step4.png" alt="" loading="lazy" /></p>
+<p>As they work, the project instructions direct students to look at former steps to figure out how to perform new, similar tasks:
+<img src="nine.png" alt="" loading="lazy" />
+Until finally, we expect the students to think critically about how to proceed forward on their own:
+<img src="/images/ten.png" alt="" loading="lazy" />
+Because of how the project is scaffolded, students are slowly taught how to reason through each step and guided towards creative, independent thinking. Building a computer science curriculum this way doesn&rsquo;t just build knowledge, it builds skills. A well-scaffolded curriculum also supports students and teacher of all levels and backgrounds, not just those with the highest aptitude or outside experience.</p>
+<p>That ends my ruminations on the importance of scaffolding in computer science curriculum. In a week or two, I&rsquo;ll post some writings on the importance of project-driven curriculum.</p>
+
+                    
+                    <HR width="100%" id="EOF">
+                    <p style="color:#777;">Last modified on 2025-12-17</p>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <nav class="post-pagination">
+                
+                <a class="newer-posts">
+                    Next<br>No newer posts.
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/posts/statement-of-purpose/">
+                    Previous<br>Statement of Purpose
+                </a>
+                
+            </nav>
+            
+
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="//localhost:1313/">
+    
+        <div class="nav-title">
+            Brent F. Sanderson
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                Categories
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/aboutme">
+                About Me
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/subscribe">
+                Subscribe
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+&copy;
+	
+	2025 Brent F. Sanderson
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#what-is-scaffolding" class="nav-what-is-scaffolding">
+									What is scaffolding?
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#scaffolding-for-cs" class="nav-scaffolding-for-cs">
+									Scaffolding for CS
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#how-to-do-it-right" class="nav-how-to-do-it-right">
+									How to do it right
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+&copy;
+	
+	2025 Brent F. Sanderson
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>

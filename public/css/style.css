@@ -1,3 +1,4 @@
+/* Sidebar styles */
 .sidebar-flex {
   display: flex;
   flex-direction: row;
@@ -13,6 +14,7 @@
   display: flex;
   align-items: center;
 }
+
 .sidebar-picture {
   width: 60px; /* adjust as needed */
   height: auto;
@@ -24,35 +26,72 @@
     flex-direction: column;
     align-items: stretch;
   }
+
   .sidebar-picture-wrapper {
     margin-left: 0;
     margin-top: 16px;
     justify-content: center;
   }
 }
+
+/* Dark mode styles */
 body.dark .card,   /* for cards in dark mode */
-body.dark .table   /* for tables in dark mode */
-{
+body.dark .table { /* for tables in dark mode */
   background: #23222b !important;
   color: #f3f3f3 !important;
   border-color: #222;
 }
+
 body.dark .card .btn-primary,
-body.dark .btn-primary
-{
+body.dark .btn-primary {
   background-color: #595ced;
   border-color: #595ced;
   color: #fff !important;
 }
+
 body.dark .card-title,
 body.dark .card-text,
 body.dark .table td,
 body.dark .table th {
   color: #f3f3f3 !important;
 }
+
 body.dark .table tbody tr {
   background: #23222b !important;
 }
-body.dark .text-muted, body.dark .small, body.dark small {
+
+body.dark .text-muted,
+body.dark .small,
+body.dark small {
   color: #b3b4b8 !important;
+}
+
+/* Post-item full-width image styles */
+.post-item-image-wrapper {
+  width: 100%;
+  height: auto; /* Adjust this if necessary to control the aspect ratio */
+  overflow: hidden;
+}
+
+.post-item-image {
+  width: 100%;
+  height: 400px; /* Define a consistent image height */
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px; /* Optional for rounded corners */
+}
+
+.post-item-info-wrapper {
+  margin: 10px auto;
+}
+
+.post-item-wrapper {
+  display: block; /* Ensures proper stacking */
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 700px) {
+  .post-item-image {
+    height: 300px; /* Reduce image height for smaller screens */
+  }
 }

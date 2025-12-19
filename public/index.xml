@@ -13,6 +13,73 @@
     
     
         <item>
+        <title>Scaffolding Computer Science Curriculum</title>
+        <link>//localhost:1313/posts/what-makes-for-good-k12-computer-science-curriculum/</link>
+        <pubDate>Wed, 17 Dec 2025 11:03:51 -0600</pubDate>
+        
+        <guid>//localhost:1313/posts/what-makes-for-good-k12-computer-science-curriculum/</guid>
+        <description>Brent F. Sanderson //localhost:1313/posts/what-makes-for-good-k12-computer-science-curriculum/ -&lt;p&gt;As a seasoned computer science teacher and curriculum manager, I believe that all strong computer science curricula have appropriate scaffolding, is project-based, and is easily and effectively differentiable. I&amp;rsquo;ll be writing a series of posts on each of these attributes, but today, I&amp;rsquo;m going to do a deep dive into scaffolding.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve written a lot of CS curriculum. Hundreds of hours worth (perhaps thousands), for my classroom, for my own company and for other companies that valued my expertise. As a high school teacher, I&amp;rsquo;ve also used countless other curricula, some very effective, and many fair to terrible. Because I&amp;rsquo;ve had first-hand experience with so many curriculum products, I know that a poorly scaffolded curriculum is detrimental to student outcomes.&lt;/p&gt;
+&lt;p&gt;Without the right scaffolds in place, students won&amp;rsquo;t develop independent thinking, and may give up entirely before they&amp;rsquo;ve started.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-scaffolding&#34;&gt;What is scaffolding?&lt;/h2&gt;
+&lt;p&gt;If you’re not an educator, this word probably makes you think of the temporary support structures used by construction workers to reach tall places. On the other hand, if you’re a teacher, your primary association may be something else.&lt;/p&gt;
+&lt;p&gt;In the education world, “scaffolding” has a specific technical meaning. It refers to the way that a teacher or curriculum slowly removes instructional supports as students learn. The goal of scaffolding is to guide students to independent thinking and problem solving. We want students to learn how to approach a wide range of problems, not just the specific task at hand.&lt;/p&gt;
+&lt;p&gt;Scaffolding is important for learners in every field, but it’s particularly relevant when teaching computer science.&lt;/p&gt;
+&lt;p&gt;Most K-12 learners have little experience writing code, so they’ll need extra support up front. Writing code is a skill. Computer science learners are not just memorizing facts or syntax. They’re learning a new way to think. If we want them to master skills, we must guide them towards independent thinking.&lt;/p&gt;
+&lt;h2 id=&#34;scaffolding-for-cs&#34;&gt;Scaffolding for CS&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;So what does scaffolding look like in a computer science curriculum?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At the start of a project, you’ll want to be very explicit in telling students what code to write and where. If a student has never written an if statement or a for loop, you can’t expect them to understand how to do it just by hearing the theory behind it and seeing a syntax example.&lt;/p&gt;
+&lt;p&gt;As a project goes on, students should receive less support. Each step should require a little bit more independent thought. Students build on what they’ve learned, slowly learning not just a programming language, but how to use code to solve a problem.&lt;/p&gt;
+&lt;p&gt;Ideally, we’re teaching them not just the “what” of programming, but also “why” and “how.”&lt;/p&gt;
+&lt;p&gt;How do you know if a curriculum isn’t scaffolded enough?&lt;/p&gt;
+&lt;p&gt;Unscaffolded computer science curriculum falls into one of two extremes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The first extreme gives too little support to students&lt;/strong&gt;. It provides abstract information and then asks students to perform a concrete task.&lt;/p&gt;
+&lt;p&gt;An example assignment might show students the documentation for the Java class &lt;em&gt;String&lt;/em&gt;, and then ask them, “find and use methods in this documentation to write a new method that states whether a given input &lt;em&gt;String&lt;/em&gt; is a palindrome.”&lt;/p&gt;
+&lt;p&gt;This assignment leapfrogs several levels of thinking, asking students to synthesize lecture material without ever getting them to analyze or apply. It doesn’t even check for comprehension.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The second extreme gives too much support.&lt;/strong&gt; It will give students project to work on, but will spell out what to do for every step along the way, like a recipe. An example assignment that gives too much support might be a video tutorial called “How to Build Space Invaders in Python with PyGame,” that never pulls back and asks a student to figure out the next step themselves.&lt;/p&gt;
+&lt;p&gt;Students will end the assignment with a finished product, but they won’t ever be required to solve a problem. They’ll be told exactly what code to write the whole time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Both extremes cater to the students who don’t need a teacher.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;An exceptionally self-directed student given too little support will find a way to solve the problem. This will probably involve doing research and practice outside of the curriculum to gain the support lacking in the assignment.&lt;/p&gt;
+&lt;p&gt;An exceptionally self-directed student given too much support will think outside the task at hand to learn why the project steps work. This will probably involve experimenting and adding new features not requested by the assignment.&lt;/p&gt;
+&lt;p&gt;Meanwhile, the students who need a teacher never really learn anything.&lt;/p&gt;
+&lt;p&gt;If you don’t give your students enough support, they’ll have nothing to show for their frustration, and probably won’t want to keep learning to write code.&lt;/p&gt;
+&lt;p&gt;If you give your students too much support, they’ll never learn to write code beyond following a set of steps. Students will never get to be creative, and they won’t feel like they know what they’re doing.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-do-it-right&#34;&gt;How to do it right&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;What does a properly scaffolded computer science curriculum look like?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As I said in the introduction, I&amp;rsquo;ve written countless computer science curricula. Many different courses, for a variety of companies. Sometimes I had the freedom to craft a curriculum&amp;rsquo;s direction myself, other times I had to follow the style and goals of a different curriculum manager.&lt;/p&gt;
+&lt;p&gt;Whenever I was designing the whole curriculum myself, I used the following structure for every lesson:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;First, students read about a new code concept or structure. They’ll learn a big idea and some syntax. The concept might be something like arrays, class inheritance, or Boolean operators.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Next, students watch a short video showing someone write code using the new concept. They get to see the skill applied, along with an explanation for how and why it was written that way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;After the short text and video lessons, students start working on a project that uses the concept.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All of the real student learning happened in part three. Delivering new content with text or a video is necessary, just like lectures are necessary, but all good teachers know that watching videos or listening to a lecture is one of the worst ways to learn. Students don&amp;rsquo;t internalize knowledge or develop new skill until and unless they&amp;rsquo;ve done hands-on work. Similarly, all good curriculum writers know that hands-on work is where you have to scaffold.&lt;/p&gt;
+&lt;p&gt;If we don&amp;rsquo;t have enough scaffolding, students stare at a blank screen forever (or immediately use their favorite AI tools to get the correct answers without ever truly engaging with the problem). Too much scaffolding, and all you&amp;rsquo;re really testing is your students ability to copy and paste from a set of project instructions (granted, that can be a useful skill in its own right).&lt;/p&gt;
+&lt;p&gt;To properly scaffold project instructions, the first few steps should start by telling students exactly what to do. &amp;ldquo;Open this file. Find this code section. Go make this exact code change in line 5.&amp;rdquo; As students work, each step should offer a bit less direction. Next, students will be applying the same idea in different place. As the steps progress, they&amp;rsquo;ll be told less and less what to do, applying the main idea in new ways. Eventually, the instructions will have them adding new features without explicit direction.&lt;/p&gt;
+&lt;p&gt;As an example, several years ago I authored a project called &amp;ldquo;Rock Dodger&amp;rdquo; that was embedded in a year-long Java curriculum for high schoolers. The cored idea was teaching students when and how to use getter and setter methods to enable interaction between objects.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/ptWuyxJ-mLff4Hnf.gif&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;One of the first steps showed students exactly what to do, like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/step2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;A couple steps later, the training wheels started to come off just a little bit:
+&lt;img src=&#34;step4.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;As they work, the project instructions direct students to look at former steps to figure out how to perform new, similar tasks:
+&lt;img src=&#34;nine.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+Until finally, we expect the students to think critically about how to proceed forward on their own:
+&lt;img src=&#34;//localhost:1313/images/ten.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+Because of how the project is scaffolded, students are slowly taught how to reason through each step and guided towards creative, independent thinking. Building a computer science curriculum this way doesn&amp;rsquo;t just build knowledge, it builds skills. A well-scaffolded curriculum also supports students and teacher of all levels and backgrounds, not just those with the highest aptitude or outside experience.&lt;/p&gt;
+&lt;p&gt;That ends my ruminations on the importance of scaffolding in computer science curriculum. In a week or two, I&amp;rsquo;ll post some writings on the importance of project-driven curriculum.&lt;/p&gt;
+- //localhost:1313/posts/what-makes-for-good-k12-computer-science-curriculum/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>Statement of Purpose</title>
         <link>//localhost:1313/posts/statement-of-purpose/</link>
         <pubDate>Mon, 01 Dec 2025 10:54:59 -0600</pubDate>
