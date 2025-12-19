@@ -6,7 +6,7 @@ featured_image = 'scaffold.png'
 summary = 'The strongest computer science curriculum has appropriate scaffolding, is project-based, and is easily and effectively differentiable. But what is scaffolding?'
 +++
 
-As a seasoned computer science teacher and curriculum manager, I believe that all strong computer science curricula have appropriate scaffolding, is project-based, and is easily and effectively differentiable. I'll be writing a series of posts on each of these attributes, but today, I'm going to do a deep dive into scaffolding.
+As a seasoned computer science teacher and curriculum manager, I believe that all strong computer science curricula have appropriate scaffolding, are project-based, and are easily and effectively differentiable. I'll be writing a series of posts on each of these attributes, but today, I'm going to do a deep dive into scaffolding.
 
 I've written a lot of CS curriculum. Hundreds of hours worth (perhaps thousands), for my classroom, for my own company and for other companies that valued my expertise. As a high school teacher, I've also used countless other curricula, some very effective, and many fair to terrible. Because I've had first-hand experience with so many curriculum products, I know that a poorly scaffolded curriculum is detrimental to student outcomes. 
 
