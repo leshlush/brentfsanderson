@@ -87,10 +87,10 @@ One of the first steps showed students exactly what to do, like this:
 ![](static/images/step2.png)
 
 A couple steps later, the training wheels started to come off just a little bit:
-![](step4.png)
+![](static/images/step4.png)
 
 As they work, the project instructions direct students to look at former steps to figure out how to perform new, similar tasks:
-![](nine.png)
+![](static/images/nine.png)
 Until finally, we expect the students to think critically about how to proceed forward on their own:
 ![](static/images/ten.png)
 Because of how the project is scaffolded, students are slowly taught how to reason through each step and guided towards creative, independent thinking. Building a computer science curriculum this way doesn't just build knowledge, it builds skills. A well-scaffolded curriculum also supports students and teacher of all levels and backgrounds, not just those with the highest aptitude or outside experience.
