@@ -2,6 +2,7 @@
 date = '2025-12-17T11:03:51-06:00'
 draft = false
 title = 'Scaffolding Computer Science Curriculum'
+tags ='education'
 featured_image = 'scaffold.png' 
 summary = 'The strongest computer science curriculum has appropriate scaffolding, is project-based, and is easily and effectively differentiable. But what is scaffolding?'
 +++

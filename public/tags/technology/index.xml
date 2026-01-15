@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Brent F. Sanderson</title>
+    <link>//localhost:1313/tags/technology/</link>
+    <description>Recent content in Technology on Brent F. Sanderson</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jan 2026 09:15:25 -0600</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Flipped Classroom in the Age of AI</title>
+      <link>//localhost:1313/posts/the-flipped-classroom-in-the-age-of-ai/</link>
+      <pubDate>Thu, 15 Jan 2026 09:15:25 -0600</pubDate>
+      <guid>//localhost:1313/posts/the-flipped-classroom-in-the-age-of-ai/</guid>
+      <description>The flipped classroom models inverts the kinds of activities traditionally given as classwork and homework. In the age of AI, it is becoming a necessity.</description>
+    </item>
+  </channel>
+</rss>
