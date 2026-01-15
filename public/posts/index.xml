@@ -6,14 +6,21 @@
     <description>Recent content in Posts on Brent F. Sanderson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Dec 2025 11:03:51 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 09:15:25 -0600</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Scaffolding, Part 1 of: What Makes for Good K12 Computer Science Curriculum?</title>
+      <title>The Flipped Classroom in the Age of AI</title>
+      <link>//localhost:1313/posts/the-flipped-classroom-in-the-age-of-ai/</link>
+      <pubDate>Thu, 15 Jan 2026 09:15:25 -0600</pubDate>
+      <guid>//localhost:1313/posts/the-flipped-classroom-in-the-age-of-ai/</guid>
+      <description>&lt;p&gt;During a decade spent teaching high school coding and computer science, I have almost exclusively taught while using the flipped classroom model. I strongly believe that this model is the best way to teach young people how to write code, and when free access to LLM chatbots has upended education (it is common to hear disheartened teachers throw out the phrase &amp;ldquo;homework apocalypse&amp;rdquo;), I think that for the disciplines that can manage it, the flipped classroom will become a necessity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scaffolding Computer Science Curriculum</title>
       <link>//localhost:1313/posts/what-makes-for-good-k12-computer-science-curriculum/</link>
       <pubDate>Wed, 17 Dec 2025 11:03:51 -0600</pubDate>
       <guid>//localhost:1313/posts/what-makes-for-good-k12-computer-science-curriculum/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve written a lot of CS curriculum. Hundreds of hours worth, for my own company, for my classroom, and for other companies that valued my expertise. As a high school teacher, I&amp;rsquo;ve also used countless other curricula made by other people, some of which was very effective, and a lot that was fair to terrible. Because I&amp;rsquo;ve had so much experience both writing and using CS curriculum, I know firsthand what to look for in a computer science curriculum product, and what can make a curriculum effective in a K-12 classroom.&lt;/p&gt;</description>
+      <description>The strongest computer science curriculum has appropriate scaffolding, is project-based, and is easily and effectively differentiable. But what is scaffolding?</description>
     </item>
     <item>
       <title>Statement of Purpose</title>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<title>The Flipped Classroom in the Age of AI</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous" defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/journal.min.f398685778cf47367e3a0ef294bb0dbb5c2c4c2305bb3596e02dd64875247123.css" integrity="sha256-85hoV3jPRzZ&#43;Og7ylLsNu1wsTCMFuzWW4C3WSHUkcSM=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    Categories
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/aboutme">
+                    About Me
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/subscribe">
+                    Subscribe
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="//localhost:1313/">
+            Brent F. Sanderson
+        </a>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="//localhost:1313/">
+        <div class="single-column-header-title">Brent F. Sanderson</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+                
+            
+
+            <div class="post-head-wrapper"
+                
+                    
+                    
+                    style="background-image: url('//localhost:1313/calculator.webp')"
+                    
+                
+            >
+                <div class="post-title">
+                    The Flipped Classroom in the Age of AI
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2026-01-15 09:15
+                        </time>
+                        
+
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>During a decade spent teaching high school coding and computer science, I have almost exclusively taught while using the flipped classroom model. I strongly believe that this model is the best way to teach young people how to write code, and when free access to LLM chatbots has upended education (it is common to hear disheartened teachers throw out the phrase &ldquo;homework apocalypse&rdquo;), I think that for the disciplines that can manage it, the flipped classroom will become a necessity.</p>
+<p>Before diving into the nitty gritty, I should first answer the question, &ldquo;what is a flipped classroom?&rdquo; as I know that even many other teachers are unfamiliar with this teaching strategy. The flipped classroom model inverts the kinds of activities that are traditionally given as classwork and homework. In a traditional high school classroom, a teacher might lecture for the majority of class time, then assign students a set of problems to do for homework. Class time is dedicated to conveying information, and homework is used to get students practicing. In the flipped classroom model, students would be reading a textbook chapter or watching a lecture video on their own time before coming to class, and then working through associated problems during class time. They do the bulk of their practice in the presence of their teacher, and homework is focused on the dissemination of whatever information is needed to succeed with classwork.</p>
+<p>The name &ldquo;flipped classroom model&rdquo; was coined in 2007 by Jonathan Bergman and Aaron Sams; though undoubtedly fantastic, innovative teachers, they were not the first to use this model. I first encountered a flipped classroom as a computer science student at Belmont University, where professors Bill Hooper and Joyce Crowell used the model extensively in their introductory programming courses (and I&rsquo;m very sure they&rsquo;d never heard of Bergman or Sams). In fact, teachers had been using the same or similar instructional strategies for decades before the model was codified under the name &ldquo;flipped classroom.&rdquo; You can read more about the history of the instructional style here: <a href="https://files.eric.ed.gov/fulltext/EJ1349598.pdf" title="https://files.eric.ed.gov/fulltext/EJ1349598.pdf">https://files.eric.ed.gov/fulltext/EJ1349598.pdf</a></p>
+<p>Today, flipped classrooms are often classified as a kind of &ldquo;blended learning,&rdquo; with the assumption that teachers will record lecture videos and post them into a learning management system. This approach to a flipped classroom can obviously be very effective (and also involve a lot of up-front work by the teacher), but there&rsquo;s no strict necessity to involve technology at all. You could just as easily use a text book and assign students to &ldquo;do the reading,&rdquo; before they come to class.</p>
+<p>For teaching students how to write code, the flipped classroom is to my mind the best approach. As anyone who has ever learned to program a computer knows, writing code is a skill. As computer science teachers, our goal is not to fill our students brains full of information. Our goal is to teach their students a skill. Therefore, it seems obvious to me that we should spend the majority of the time we have with students working with them on skills development, and not information relay.</p>
+<p>Starting to learn to write code can also be very difficult, if only because it tends to be so different from anything students have done in their other courses. Whenever I&rsquo;ve taught an intro class full of students who have never done any programming before, there is always a distinct period of time at the beginning of the year when the whole class feels like they&rsquo;re in over their heads, but invariably, a moment occurs for almost every student when something clicks and the unique mode of thinking inherent to writing code starts to feel natural. This moment occurs at a different time for each student: for some, it&rsquo;s at the end of first week, others after a couple months, and some towards the end of year. Because there is always great disparities for when each student has this breakthrough, it&rsquo;s critical to be present as a teacher during practicing and skills development to give each student individualized support. This level of support is only possible if you&rsquo;re not spending 45 minutes or more lecturing. In a flipped classroom setting that&rsquo;s done well, the majority of instruction will be given one-on-one or to small groups while the rest of the class is busy with their work.</p>
+<p>I&rsquo;ve found other reasons for teaching this way. The bulk of my teaching career was spent in schools where I could not guarantee that students would have access to a computer, access to the internet, or even dedicated time to do work (many of my students worked full time jobs after they left school in the afternoon). It&rsquo;s easy to take for granted that every student has the ability to go home and work on a computer after school without realizing that the assumption is one of economic privilege.</p>
+<p>I left a career in software to become a high school teacher in the 2010s. Since starting a couple big wrecking balls hit the world of education: namely, the COVID-19 pandemic and the widespread proliferation of free LLM-powered chatbots. Some approaches to teaching no longer work, but certain old approaches may be the tools that we need to make sure learning and skills-development still happen.</p>
+<p>One huge, glaring, obvious, and much-lamented drawback to the vast majority of students having instantaneous, free access to ChatGPT (or Gemini, or Claude, or DeepSeek, &amp;c &amp;c) is that if (almost) every student has the option to never do homework again, (almost) no students will ever do homework again. When homework&rsquo;s main purpose is to enforce the development of skills, the AI cheating epidemic is devastating to all the wider goals of education. However, if homework&rsquo;s focus is on knowledge conveyance, things start to look less devastating.</p>
+<p>No matter what camp into which you as a reader may fall in the debates about AI&rsquo;s role in education (AI will save our education system; AI will destroy whatever&rsquo;s left of our education system; within clear limits, students should learn how to use LLM technologies; something else), it seems obvious to me that using an LLM chatbot for knowledge consumption is much less deleterious to learning outcomes than using it to write a paper for you or to complete a coding assignment. To some extent, if I told a student to read a textbook chapter about for loops before class, and they used ChatGPT to read a summary instead, I wouldn&rsquo;t care. As long as it adequately prepared them to do our in-class assignment the next day, they&rsquo;ve accomplished what I&rsquo;ve asked. I&rsquo;d care a lot more if I asked them to write 10 for loops for homework and they had a chatbot do it for them. Now they&rsquo;re no longer developing skills.</p>
+<p>As every English teacher reading this post is certainly muttering to themselves right now, reading is, of course, itself a skill. It&rsquo;s not so easy as I&rsquo;ve made it sound to shunt all types of assignments neatly into two binary camps of &ldquo;knowledge conveyance&rdquo; and &ldquo;skills development,&rdquo; which is why the flipped classroom doesn&rsquo;t work for every course or every discipline. English courses may be hit the hardest by the rise of LLMs, and it&rsquo;s unfortunate that one of the best strategies to protect students from their worst instincts isn&rsquo;t very helpful for English teachers in the trenches, fighting the good fight.</p>
+<p>And yet, for so many classes, the flipped classroom is undoubtedly the right answer. For many disciplines, including coding, most CTE courses, many math classes, and any course that emphasizes project-based or inquiry-driven learning, teaching with a flipped classroom is probably better for student learning regardless of any home apocalypses that might be at hand. Even if the rise of LLM chatbots proves to be largely a disaster for our education system, perhaps a widespread move to counteract cheating by adopting flipped classrooms will lead to student gains among those who are willing to try something new.</p>
+
+                    
+                    <HR width="100%" id="EOF">
+                    <p style="color:#777;">Last modified on 2026-01-15</p>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <nav class="post-pagination">
+                
+                <a class="newer-posts">
+                    Next<br>No newer posts.
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/posts/what-makes-for-good-k12-computer-science-curriculum/">
+                    Previous<br>Scaffolding Computer Science Curriculum
+                </a>
+                
+            </nav>
+            
+
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="//localhost:1313/">
+    
+        <div class="nav-title">
+            Brent F. Sanderson
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                Categories
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/aboutme">
+                About Me
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/subscribe">
+                Subscribe
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+&copy;
+	
+	2025 Brent F. Sanderson
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+&copy;
+	
+	2025 Brent F. Sanderson
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>
