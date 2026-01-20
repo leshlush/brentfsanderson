@@ -4,7 +4,7 @@ draft = false
 title = 'Advice for Edtech Startups'
 tags = ['education', 'technology']
 featured_image = 'images/magnetic.png' 
-summary = 'Scattered thoughts for founders after a decade in the trenches:
+summary = 'Scattered thoughts for founders after a decade in the trenches'
 +++
 
 Below are some scattered thoughts offered to all education technology startup looking to sell a new product into K-12 schools. They come after a decade in the trenches:
