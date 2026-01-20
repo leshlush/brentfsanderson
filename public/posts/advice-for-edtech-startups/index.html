@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-<title>Posts</title>
+<title>Advice for Edtech Startups</title>
 
 
 
@@ -39,6 +39,8 @@
 
 
 
+      <script src="/js/toc.js"></script>
+    
     <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
 
 <link rel="stylesheet" href="/scss/journal.min.f398685778cf47367e3a0ef294bb0dbb5c2c4c2305bb3596e02dd64875247123.css" integrity="sha256-85hoV3jPRzZ&#43;Og7ylLsNu1wsTCMFuzWW4C3WSHUkcSM=" media="screen">
@@ -106,6 +108,11 @@
                 
             
             
+            <div class="toc">
+
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -139,123 +146,103 @@
                 <div id="streamContainer" class="stream-container">
 
     <div class="post-list-container post-list-container-shadow">
-        
-            <a class="a-block">
-                <div class="post-item-wrapper post-item-wrapper-no-hover">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title post-item-title-small year">
-                                2026
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
+        <div class="post">
             
-            <a href="/posts/advice-for-edtech-startups/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Advice for Edtech Startups
-                            </div>
-                            <div class="post-item-meta">
-    2026-01-19
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            
+            
+                
+            
 
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="/posts/the-flipped-classroom-in-the-age-of-ai/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                The Flipped Classroom in the Age of AI
-                            </div>
-                            <div class="post-item-meta">
-    2026-01-15
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            <div class="post-head-wrapper"
+                
+                    
+                    
+                    style="background-image: url('//localhost:1313/images/magnetic.png')"
+                    
+                
+            >
+                <div class="post-title">
+                    Advice for Edtech Startups
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2026-01-19 18:29
+                        </time>
+                        
 
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-        
-            <a class="a-block">
-                <div class="post-item-wrapper post-item-wrapper-no-hover">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title post-item-title-small year">
-                                2025
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="/posts/what-makes-for-good-k12-computer-science-curriculum/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Scaffolding Computer Science Curriculum
-                            </div>
-                            <div class="post-item-meta">
-    2025-12-17
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+                        
 
-                        </div>
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/education">education</a>
+                                &nbsp;
+                            
+                                <a href="/tags/technology">technology</a>
+                                &nbsp;
+                            
+                        
+                        
                     </div>
                 </div>
-            </a>
+            </div>
             
-            <a href="/posts/statement-of-purpose/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Statement of Purpose
-                            </div>
-                            <div class="post-item-meta">
-    2025-12-01
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>Below are some scattered thoughts offered to all education technology startup looking to sell a new product into K-12 schools. They come after a decade of experience in the trenches:</p>
+<ul>
+<li>Many districts&rsquo; content filtering software has a blanket ban on all .io domains. Don&rsquo;t give your web app a .io address unless you want to spend a ton of time helping confused teachers apply for a whitelisting exception.</li>
+<li>Districts will care about your student data privacy policies. You will be asked if you are compliant with FERPA and COPPA. Do you know what those are? Are you compliant?</li>
+<li>Many districts have a policy that students cannot use any application that involves signing in with a username and password. How will you grant those students access?</li>
+<li>Does your web application make use of the browser&rsquo;s local storage like IndexedDB or the Cache API? Many managed Chromebook policies used by schools either prevent local storage altogether or clear the cache at regular intervals. If that breaks your app, you need to find a solution.</li>
+<li>Many schools&rsquo; content filtering blocks common CDN platforms. If you use a CDN to serve static assets as part of your application, make sure you to include the CDN&rsquo;s URL as part of your list of domains that need to be white-listed by IT staff. It&rsquo;s very possible you&rsquo;re serving assets from multiple subdomains, so be sure to include each one.</li>
+<li>If you&rsquo;re trying to launch a product and most schools or districts don&rsquo;t have a line-item in their budget to buy that product, you should strongly re-think trying to launch that product.</li>
+</ul>
 
-                        </div>
-                    </div>
+                    
+                    <HR width="100%" id="EOF">
+                    <p style="color:#777;">Last modified on 2026-01-19</p>
+                    
                 </div>
-            </a>
+            </div>
             
-        
+            
+            
+            <nav class="post-pagination">
+                
+                <a class="newer-posts">
+                    Next<br>No newer posts.
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/posts/the-flipped-classroom-in-the-age-of-ai/">
+                    Previous<br>The Flipped Classroom in the Age of AI
+                </a>
+                
+            </nav>
+            
+
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
     </div>
-
 
 
                     </div>
@@ -320,6 +307,11 @@
         
 
         
+        <div class="toc">
+
+
+</div>
+        
     </div>
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
@@ -330,13 +322,8 @@
         </a>
         
         
-        
-        
     </div>
 </div>
-
-
-
 
 <div id="single-column-footer">
 &copy;

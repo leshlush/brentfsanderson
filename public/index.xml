@@ -13,6 +13,26 @@
     
     
         <item>
+        <title>Advice for Edtech Startups</title>
+        <link>//localhost:1313/posts/advice-for-edtech-startups/</link>
+        <pubDate>Mon, 19 Jan 2026 18:29:54 -0600</pubDate>
+        
+        <guid>//localhost:1313/posts/advice-for-edtech-startups/</guid>
+        <description>Brent F. Sanderson //localhost:1313/posts/advice-for-edtech-startups/ -&lt;p&gt;Below are some scattered thoughts offered to all education technology startup looking to sell a new product into K-12 schools. They come after a decade of experience in the trenches:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Many districts&amp;rsquo; content filtering software has a blanket ban on all .io domains. Don&amp;rsquo;t give your web app a .io address unless you want to spend a ton of time helping confused teachers apply for a whitelisting exception.&lt;/li&gt;
+&lt;li&gt;Districts will care about your student data privacy policies. You will be asked if you are compliant with FERPA and COPPA. Do you know what those are? Are you compliant?&lt;/li&gt;
+&lt;li&gt;Many districts have a policy that students cannot use any application that involves signing in with a username and password. How will you grant those students access?&lt;/li&gt;
+&lt;li&gt;Does your web application make use of the browser&amp;rsquo;s local storage like IndexedDB or the Cache API? Many managed Chromebook policies used by schools either prevent local storage altogether or clear the cache at regular intervals. If that breaks your app, you need to find a solution.&lt;/li&gt;
+&lt;li&gt;Many schools&amp;rsquo; content filtering blocks common CDN platforms. If you use a CDN to serve static assets as part of your application, make sure you to include the CDN&amp;rsquo;s URL as part of your list of domains that need to be white-listed by IT staff. It&amp;rsquo;s very possible you&amp;rsquo;re serving assets from multiple subdomains, so be sure to include each one.&lt;/li&gt;
+&lt;li&gt;If you&amp;rsquo;re trying to launch a product and most schools or districts don&amp;rsquo;t have a line-item in their budget to buy that product, you should strongly re-think trying to launch that product.&lt;/li&gt;
+&lt;/ul&gt;
+- //localhost:1313/posts/advice-for-edtech-startups/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>The Flipped Classroom in the Age of AI</title>
         <link>//localhost:1313/posts/the-flipped-classroom-in-the-age-of-ai/</link>
         <pubDate>Thu, 15 Jan 2026 09:15:25 -0600</pubDate>

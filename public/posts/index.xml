@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Brent F. Sanderson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jan 2026 09:15:25 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 18:29:54 -0600</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advice for Edtech Startups</title>
+      <link>//localhost:1313/posts/advice-for-edtech-startups/</link>
+      <pubDate>Mon, 19 Jan 2026 18:29:54 -0600</pubDate>
+      <guid>//localhost:1313/posts/advice-for-edtech-startups/</guid>
+      <description>The strongest computer science curriculum has appropriate scaffolding, is project-based, and is easily and effectively differentiable. But what is scaffolding?</description>
+    </item>
     <item>
       <title>The Flipped Classroom in the Age of AI</title>
       <link>//localhost:1313/posts/the-flipped-classroom-in-the-age-of-ai/</link>
