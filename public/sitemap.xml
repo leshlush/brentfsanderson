@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/tags/miscellaneous/</loc>
+    <lastmod>2026-02-12T12:39:04-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2026-02-12T12:39:04-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/rachel-teubner-on-loss/</loc>
+    <lastmod>2026-02-12T12:39:04-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2026-02-12T12:39:04-06:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/posts/advice-for-edtech-startups/</loc>
     <lastmod>2026-01-19T18:29:54-06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/education/</loc>
-    <lastmod>2026-01-19T18:29:54-06:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/</loc>
-    <lastmod>2026-01-19T18:29:54-06:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2026-01-19T18:29:54-06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/technology/</loc>
@@ -22,9 +28,6 @@
   </url><url>
     <loc>//localhost:1313/posts/what-makes-for-good-k12-computer-science-curriculum/</loc>
     <lastmod>2025-12-17T11:03:51-06:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/miscellaneous/</loc>
-    <lastmod>2025-12-01T10:54:59-06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/statement-of-purpose/</loc>
     <lastmod>2025-12-01T10:54:59-06:00</lastmod>
