@@ -4,6 +4,7 @@ draft = false
 title = 'Rachel Teubner on Loss'
 tags = ['miscellaneous']
 featured_image = 'images/sadness.jpg'
+summary = 'A moving meditation on grief, confusion, and faith after miscarriages.'
 +++
 
 This morning, [ *The Hedgehog Review* posted a moving and very insightful piece by Rachel Teubner exploring her sense of loss and the hardship and misunderstanding of having a miscarriage.](https://hedgehogreview.com/web-features/thr/posts/losing-a-personal-history)
