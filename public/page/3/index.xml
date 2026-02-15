@@ -1,0 +1,35 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brent F. Sanderson</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Brent F. Sanderson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Jul 2025 12:59:35 +0000</lastBuildDate>
+    
+        <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Statement of Purpose</title>
+        <link>//localhost:1313/posts/statement-of-purpose/</link>
+        <pubDate>Mon, 01 Dec 2025 10:54:59 -0600</pubDate>
+        
+        <guid>//localhost:1313/posts/statement-of-purpose/</guid>
+        <description>Brent F. Sanderson //localhost:1313/posts/statement-of-purpose/ -&lt;p&gt;I&amp;rsquo;ve started a new personal website, as of December 1, 2025, as a place for me to post publicly some of my thoughts and writings. I will write about whatever strikes me, though common themes are likely to include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Education&lt;/li&gt;
+&lt;li&gt;Technology&lt;/li&gt;
+&lt;li&gt;Arts and Literature&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As a natural procrastinator, I am also publicly setting a deadline for myself that the first substantial piece of writing will appear here by Monday, December 8, 2025.&lt;/p&gt;
+- //localhost:1313/posts/statement-of-purpose/ - </description>
+        </item>
+    
+    
+    
+    
+  </channel>
+</rss> 

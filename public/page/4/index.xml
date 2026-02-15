@@ -1,0 +1,19 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brent F. Sanderson</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Brent F. Sanderson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Jul 2025 12:59:35 +0000</lastBuildDate>
+    
+        <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    
+    
+    
+  </channel>
+</rss> 

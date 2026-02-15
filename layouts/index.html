@@ -8,7 +8,7 @@
   </div>
   <!-- Recent posts: -->
   {{ $posts := where .Site.RegularPages "Section" "posts" }}
-  {{ $recentPosts := first 3 (where $posts "Params.hidden" "!=" true) }}
+  {{ $recentPosts := first 10 (where $posts "Params.hidden" "!=" true) }}
   {{ range $recentPosts }}
     <a href="{{.RelPermalink}}" class="a-block">
       <div class="post-item-wrapper">
